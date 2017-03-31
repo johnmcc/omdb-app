@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: cornflowerBlue;
+  font-family: 'Bangers', cursive;
+}
+
+#search_wrapper {
+  text-align: center;
+  background: white;
+  padding: 10px 40px 40px 40px;
+}
+
+input {
+  color: cornflowerBlue;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid crimson;
+  font-size: 50px;
+  padding: 10px;
+  font-family: 'Bangers', cursive;
+}
+
+input:focus {
+  outline: none;
+}
+
+a, a:link, a:visited {
+  margin-top: 25px;
+  display: block;
+  font-size: 36px;
+  text-decoration: none;
+  color: crimson;
+}
+
+a:hover, a:active, a:focus {
+  
+}
+
+#movie.hasContent {
+  text-align: center;
+  background: white;
+  width: 60%;
+  margin: 40px auto;
+  padding: 20px 40px 40px 40px;
+}
+
+#movie.hasContent img {
+  float: left;
+  max-width: 45%;
+}
+
+#movie.hasContent ul {
+  float: right;
+  text-align: left;
+  width: 40%;
+}
+
+#movie.hasContent:after {
+  content: "";
+  display: table;
+  clear: both;
+}
